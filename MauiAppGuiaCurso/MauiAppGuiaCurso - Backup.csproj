@@ -57,23 +57,29 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <AndroidJavaSource Remove="Salas\**" />
-	  <AndroidLibrary Remove="Salas\**" />
-	  <AndroidNativeLibrary Remove="Salas\**" />
-	  <Compile Remove="Salas\**" />
-	  <EmbeddedResource Remove="Salas\**" />
-	  <JavaSourceJar Remove="Salas\**" />
-	  <None Remove="Salas\**" />
-	  <ProguardConfiguration Remove="Salas\**" />
-	  <TransformFile Remove="Salas\**" />
+	  <AndroidJavaSource Remove="NovaPasta\**" />
+	  <AndroidLibrary Remove="NovaPasta\**" />
+	  <AndroidNativeLibrary Remove="NovaPasta\**" />
+	  <Compile Remove="NovaPasta\**" />
+	  <EmbeddedResource Remove="NovaPasta\**" />
+	  <JavaSourceJar Remove="NovaPasta\**" />
+	  <None Remove="NovaPasta\**" />
+	  <ProguardConfiguration Remove="NovaPasta\**" />
+	  <TransformFile Remove="NovaPasta\**" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Ano1ADMPage.xaml" />
+	  <None Remove="Ano1EDFPage.xaml" />
 	  <None Remove="Ano1InfoPage.xaml" />
 	  <None Remove="Ano1MECAPage.xaml" />
+	  <None Remove="Ano2ADMPage.xaml" />
 	  <None Remove="Ano2DSPage.xaml" />
+	  <None Remove="Ano2EDFPage.xaml" />
 	  <None Remove="Ano2MECAPage.xaml" />
+	  <None Remove="Ano3ADMPage.xaml" />
 	  <None Remove="Ano3DSPage.xaml" />
+	  <None Remove="Ano3EDFPage.xaml" />
 	  <None Remove="Ano3MECAPage.xaml" />
 	</ItemGroup>
 
@@ -81,63 +87,6 @@
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Update="Ano1InfoPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Ano1MECAPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Ano2DSPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Ano2MECAPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Ano3DSPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Ano3MECAPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Salas\Ano1ADMPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Salas\Ano1EDFPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Salas\Ano1INFOPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Salas\Ano1MECAPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Salas\Ano2ADMPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Salas\Ano2DSPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Salas\Ano2EDFPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Salas\Ano2MECAPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Salas\Ano3ADMPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Salas\Ano3DSPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Salas\Ano3EDFPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Salas\Ano3MECAPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

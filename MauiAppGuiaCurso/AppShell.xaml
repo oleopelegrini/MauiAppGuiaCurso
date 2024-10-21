@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Shell
+<Shell 
     x:Class="MauiAppGuiaCurso.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -7,8 +7,25 @@
     Shell.FlyoutBehavior="Disabled"
     Title="MauiAppGuiaCurso">
 
+    <TabBar>
+        <ShellContent Title="1° Informática" ContentTemplate="{DataTemplate local:Ano1infoPage}"/>
+        <ShellContent Title="2° Desenvolvimeto de Sistemas" ContentTemplate="{DataTemplate local:Ano2dsPage}"/>
+        <ShellContent Title="3° Desenvolvimeto de Sistemas" ContentTemplate="{DataTemplate local:Ano3dsPage}"/>
+
+        <ShellContent Title="1° Administração" ContentTemplate="{DataTemplate local:Ano1admPage}"/>
+        <ShellContent Title="2° Administração" ContentTemplate="{DataTemplate local:Ano2admPage}"/>
+        <ShellContent Title="3° Administração" ContentTemplate="{DataTemplate local:Ano3admPage}"/>
+
+        <ShellContent Title="1° Edificações" ContentTemplate="{DataTemplate local:Ano1edfPage}"/>
+        <ShellContent Title="2° Edificações" ContentTemplate="{DataTemplate local:Ano2edfPage}"/>
+        <ShellContent Title="3° Edificações" ContentTemplate="{DataTemplate local:Ano3edfPage}"/>
+
+        <ShellContent Title="1° Mecatrônica" ContentTemplate="{DataTemplate local:Ano1mecaPage}"/>
+        <ShellContent Title="2° Mecatrônica" ContentTemplate="{DataTemplate local:Ano2mecaPage}"/>
+        <ShellContent Title="3° Mecatrônica" ContentTemplate="{DataTemplate local:Ano3mecaPage}"/>
+    </TabBar>
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="MainPage" /> 
 </Shell>
